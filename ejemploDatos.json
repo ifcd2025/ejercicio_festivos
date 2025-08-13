@@ -1,0 +1,294 @@
+[
+  {
+    "id": "f5cbc309-6365-4c68-b86f-29f4e578ef4f",
+    "startDate": "2022-01-01",
+    "endDate": "2022-01-01",
+    "type": "Public",
+    "name": [{ "language": "ES", "text": "Año Nuevo" }],
+    "regionalScope": "National",
+    "temporalScope": "FullDay",
+    "nationwide": true
+  },
+  {
+    "id": "a7f33af6-da9e-4ebf-9ecf-7cd773f49855",
+    "startDate": "2022-01-06",
+    "endDate": "2022-01-06",
+    "type": "Public",
+    "name": [{ "language": "ES", "text": "Epifanía del Señor" }],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": true
+  },
+  {
+    "id": "e6b48f37-1a77-4543-9cab-46d92492375b",
+    "startDate": "2022-02-02",
+    "endDate": "2022-02-02",
+    "type": "Public",
+    "name": [{ "language": "ES", "text": "Virgen de la Candelaria" }],
+    "regionalScope": "Local",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [{ "code": "ES-CN-SC-TE", "shortName": "CN-SC-TE" }]
+  },
+  {
+    "id": "1c30b5b5-54e7-4e9c-9b5a-f189052ad034",
+    "startDate": "2022-02-28",
+    "endDate": "2022-02-28",
+    "type": "Public",
+    "name": [{ "language": "ES", "text": "Día de Andalucía" }],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [{ "code": "ES-AN", "shortName": "AN" }]
+  },
+  {
+    "id": "4332d4f4-4f57-4204-af1b-d9c42d3961f4",
+    "startDate": "2022-03-01",
+    "endDate": "2022-03-01",
+    "type": "Public",
+    "name": [{ "language": "ES", "text": "Día de las Illes Balears" }],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [{ "code": "ES-IB", "shortName": "IB" }]
+  },
+  {
+    "id": "45978c9e-3c66-4a0e-8d6e-e63ac0eb9379",
+    "startDate": "2022-03-19",
+    "endDate": "2022-03-19",
+    "type": "Public",
+    "name": [{ "language": "ES", "text": "Día de San José" }],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [{ "code": "ES-VC", "shortName": "VC" }]
+  },
+  {
+    "id": "4c5c69f8-9844-49b7-ac1c-5ad7c05bf34b",
+    "startDate": "2022-04-14",
+    "endDate": "2022-04-14",
+    "type": "Public",
+    "name": [{ "language": "ES", "text": "Jueves Santo" }],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      { "code": "ES-EX", "shortName": "EX" },
+      { "code": "ES-GA", "shortName": "GA" },
+      { "code": "ES-RI", "shortName": "RI" },
+      { "code": "ES-MC", "shortName": "MC" },
+      { "code": "ES-CL", "shortName": "CL" },
+      { "code": "ES-CM", "shortName": "CM" },
+      { "code": "ES-PV", "shortName": "PV" },
+      { "code": "ES-AR", "shortName": "AR" },
+      { "code": "ES-ML", "shortName": "ML" },
+      { "code": "ES-CN", "shortName": "CN" },
+      { "code": "ES-CB", "shortName": "CB" },
+      { "code": "ES-MD", "shortName": "MD" },
+      { "code": "ES-AN", "shortName": "AN" },
+      { "code": "ES-IB", "shortName": "IB" },
+      { "code": "ES-AS", "shortName": "AS" },
+      { "code": "ES-NC", "shortName": "NC" },
+      { "code": "ES-CE", "shortName": "CE" }
+    ]
+  },
+  {
+    "id": "97b7a3fa-0950-44f0-9e3c-058a740e8c89",
+    "startDate": "2022-04-15",
+    "endDate": "2022-04-15",
+    "type": "Public",
+    "name": [{ "language": "ES", "text": "Viernes Santo" }],
+    "regionalScope": "National",
+    "temporalScope": "FullDay",
+    "nationwide": true
+  },
+  {
+    "id": "ab0fc470-a001-42a6-9153-4132e6d9d056",
+    "startDate": "2022-04-18",
+    "endDate": "2022-04-18",
+    "type": "Public",
+    "name": [{ "language": "ES", "text": "Lunes de Pascua" }],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      { "code": "ES-VC", "shortName": "VC" },
+      { "code": "ES-RI", "shortName": "RI" },
+      { "code": "ES-CM", "shortName": "CM" },
+      { "code": "ES-PV", "shortName": "PV" },
+      { "code": "ES-CB", "shortName": "CB" },
+      { "code": "ES-IB", "shortName": "IB" },
+      { "code": "ES-CT", "shortName": "CT" },
+      { "code": "ES-NC", "shortName": "NC" }
+    ]
+  },
+  {
+    "id": "59492ec8-f1d7-48e1-9e28-cbd208a5f5f6",
+    "startDate": "2022-04-23",
+    "endDate": "2022-04-23",
+    "type": "Public",
+    "name": [{ "language": "ES", "text": "Día de Castilla y León" }],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [{ "code": "ES-CL", "shortName": "CL" }]
+  },
+  {
+    "id": "864c5f9e-7bca-4895-bf7b-dc760af263eb",
+    "startDate": "2022-04-23",
+    "endDate": "2022-04-23",
+    "type": "Public",
+    "name": [{ "language": "ES", "text": "Día de Aragón" }],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [{ "code": "ES-AR", "shortName": "AR" }]
+  },
+  {
+    "id": "20585a87-2ee0-4eb9-ac94-2220f19b6cc0",
+    "startDate": "2022-05-02",
+    "endDate": "2022-05-02",
+    "type": "Public",
+    "name": [
+      { "language": "ES", "text": "Lunes siguiente a la Fiesta del Trabajo" }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      { "code": "ES-EX", "shortName": "EX" },
+      { "code": "ES-MC", "shortName": "MC" },
+      { "code": "ES-CM", "shortName": "CM" },
+      { "code": "ES-AR", "shortName": "AR" },
+      { "code": "ES-AN", "shortName": "AN" },
+      { "code": "ES-AS", "shortName": "AS" }
+    ]
+  },
+  {
+    "id": "26f2f20a-624f-45fc-ac5f-037d97a75a6a",
+    "startDate": "2022-05-02",
+    "endDate": "2022-05-02",
+    "type": "Public",
+    "name": [{ "language": "ES", "text": "Día de la Comunidad de Madrid" }],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [{ "code": "ES-MD", "shortName": "MD" }]
+  },
+  {
+    "id": "6ed0be26-2e0f-4bc8-987d-28ab3fad0754",
+    "startDate": "2022-05-03",
+    "endDate": "2022-05-03",
+    "type": "Public",
+    "name": [
+      { "language": "ES", "text": "Fiesta del fin del Ramadán (Eid al-Fitr)" }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [{ "code": "ES-ML", "shortName": "ML" }]
+  },
+  {
+    "id": "dcc189af-acce-428a-9ec0-db86297d999f",
+    "startDate": "2022-05-17",
+    "endDate": "2022-05-17",
+    "type": "Public",
+    "name": [{ "language": "ES", "text": "Día de las Letras Gallegas" }],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [{ "code": "ES-GA", "shortName": "GA" }]
+  },
+  {
+    "id": "ec0fde0e-9214-411b-aecd-e1b4791cc32d",
+    "startDate": "2022-05-30",
+    "endDate": "2022-05-30",
+    "type": "Public",
+    "name": [{ "language": "ES", "text": "Día de Canarias" }],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [{ "code": "ES-CN", "shortName": "CN" }]
+  },
+  {
+    "id": "7f715280-ae80-4c4c-bcc7-de3ccf890437",
+    "startDate": "2022-05-31",
+    "endDate": "2022-05-31",
+    "type": "Public",
+    "name": [{ "language": "ES", "text": "Día de Castilla-La Mancha" }],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [{ "code": "ES-CM", "shortName": "CM" }]
+  },
+  {
+    "id": "df712df9-3749-4884-a291-21c4b4bf9b88",
+    "startDate": "2022-06-06",
+    "endDate": "2022-06-06",
+    "type": "Public",
+    "name": [{ "language": "ES", "text": "Lunes de Pascua Granada" }],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [{ "code": "ES-CT", "shortName": "CT" }]
+  },
+  {
+    "id": "06c26e51-c78b-4f9f-b161-4d430ea0a6e2",
+    "startDate": "2022-06-09",
+    "endDate": "2022-06-09",
+    "type": "Public",
+    "name": [{ "language": "ES", "text": "Día de la Región de Murcia" }],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [{ "code": "ES-MC", "shortName": "MC" }]
+  },
+  {
+    "id": "2db5543f-6998-44d9-9582-7c34434e656b",
+    "startDate": "2022-06-09",
+    "endDate": "2022-06-09",
+    "type": "Public",
+    "name": [{ "language": "ES", "text": "Día de La Rioja" }],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [{ "code": "ES-RI", "shortName": "RI" }]
+  },
+  {
+    "id": "b8caf996-2e0c-4d53-9dab-afc271b0134c",
+    "startDate": "2022-06-13",
+    "endDate": "2022-06-13",
+    "type": "Public",
+    "name": [{ "language": "ES", "text": "San Antonio" }],
+    "regionalScope": "Local",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [{ "code": "ES-CE", "shortName": "CE" }]
+  },
+  {
+    "id": "188afc6a-68b9-4131-b6eb-956b0983caf3",
+    "startDate": "2022-06-16",
+    "endDate": "2022-06-16",
+    "type": "Public",
+    "name": [{ "language": "ES", "text": "Corpus Christi" }],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [{ "code": "ES-CM", "shortName": "CM" }]
+  },
+  {
+    "id": "c1a4737d-b17b-413c-ae40-91e1be1910f4",
+    "startDate": "2022-06-24",
+    "endDate": "2022-06-24",
+    "type": "Public",
+    "name": [{ "language": "ES", "text": "San Juan" }],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      { "code": "ES-VC", "shortName": "VC" },
+      { "code": "ES-GA", "shortName": "GA" },
+      { "code": "ES-CT", "shortName": "CT" }
+    ]
+  }
+]

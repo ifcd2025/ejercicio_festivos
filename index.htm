@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--
+    fondo festivos: https://es.vecteezy.com/arte-vectorial/7937895-moderno-low-poly-light-blue-triangle-shapes-background
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festivos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style>
+        .festivo {
+            background-image: url(fondo.jpg);
+            background-size: cover;
+        }
+        #codigoISO {
+            text-transform: uppercase;
+        }
+
+       
+    </style>
+</head>
+<body class="bg-body-secondary">
+    <header class="text-center bg-black text-white p-2">
+        <h1>Buscador de Festivos</h1>
+    </header>
+    <main class="w-50 m-auto my-3 bg-white p-3 shadow rounded-3">
+        <form id="formulario">
+            <label for="codigoISO">Código ISO del país</label>
+            <input type="text" name="codigoISO" id="codigoISO" class="form-control w-25 text-end">
+            <label for="fechaInicial" class="my-3">Fecha inicial</label>
+            <input type="text" name="fechaInicial" id="fechaInicial">
+            <label for="fechaFinal">Fecha final</label>
+            <input type="text" name="fechaFinal" id="fechaFinal">            
+            <input type="button" name="buscar" id="buscar" value="Buscar" class="btn btn-primary my-2 d-block">
+        </form>
+        <section  class="p-2">
+            <h2>Festivos</h2>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="mostrarFestivosNacionales" checked>
+                <label class="form-check-label" for="mostrarFestivosNacionales">Incluir festivos locales</label>
+            </div>
+            <div id="festivos">
+            </div>
+        </section>
+    </main>
+    <div id="clon" class="festivo border border-1 border-primary-subtle p-2 d-none my-3 bg-warning-subtle rounded-2 fw-bold">
+        <div><span class="nombre h5">Año Nuevo</span></div>
+        <div>Fecha inicio: <span class="fechaInicio fw-normal">2022-01-01</span></div>
+        <div>Fecha fin: <span class="fechaFin fw-normal">2022-01-01</span></div>
+        <div>Festivo nacional: <span class="nacional fw-normal">true</span></div>
+    </div>
+    <dialog id="mensajesError" class="w-25">
+        <h2 class="text-warning"><i class="bi bi-exclamation-triangle-fill"></i> Aviso</h2>
+        <p>mensaje</p>
+        <input type="button" name="cerrar" id="cerrar" value="cerrar" class="btn btn-primary d-block ms-auto me-0">
+    </dialog>
+</body>
+</html>
